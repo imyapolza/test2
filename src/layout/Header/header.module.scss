@@ -1,0 +1,12 @@
+@use "sass:map";
+@import "../../assets/styles/variables.scss";
+
+$headerHeight: 50px;
+
+.header 
+{
+  height: $headerHeight;
+  background: var(--unnamed, #FFF);
+  
+  box-shadow: 0px 2px 10px 0px rgba(22, 23, 24, 0.08);  
+}

@@ -1,0 +1,57 @@
+@use "sass:map";
+@import "./assets/styles/variables.scss";
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+
+
+html 
+{
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  background: 0;
+}
+
+input {
+  border: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+*,
+*:before,
+*:after 
+{
+  box-sizing: inherit;
+}
+
+* 
+{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: Nekst;
+  color: map.get($colors, dark-grey);
+}
+
+.wrapper 
+{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: var(--f-1-f-2-f-4, #F1F2F3);
+}
+
+.content 
+{
+  flex: 1 0 auto;
+  padding-top: 30px;
+  padding-bottom: 2vh;
+}
+

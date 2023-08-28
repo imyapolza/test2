@@ -1,0 +1,46 @@
+.wrapper {
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.count {
+    width: 28px;
+    height: 18px;
+    padding: 2px 4px;
+    border-radius: 9px;
+    background: var(--unnamed, #616F82);
+    margin-left: 10px;
+
+    color: var(--unnamed, #FFF);
+    display: block;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: SF Pro Display;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.countActive {
+    background: #4098C5;
+}
+
+.button {
+    color: var(--unnamed, #616F82);
+    text-align: right;
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
+.actions {
+    margin-right: 15px;
+}
+
+.all {
+    display: flex;
+}
+

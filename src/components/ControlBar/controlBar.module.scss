@@ -1,0 +1,42 @@
+.list {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 13px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.item {
+    color: var(--unnamed, #616F82);
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.active {
+    color: var(--unnamed, #4198C5);
+}
+
+.item:not(:first-child) {
+     margin-left: 20px;
+}
+
+.create {
+    color: var(--unnamed, #616F82);
+    font-family: SF Pro Display;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.left {
+    display: flex;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}

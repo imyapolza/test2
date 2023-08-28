@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+}
+
+.input {
+  display: none;
+}
+
+.input + .display {
+  width: 20px;
+  height: 20px;
+  border: 1px solid darkgray;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.input:hover + .display {
+  border-color: #4098C5;
+}
+
+.input:checked + .display {
+  border: none;
+  background-size: cover;
+  background-image: url("../../../public/images/checkbox.svg");
+}
+
+.label {
+  margin-left: 10px;
+
+  color: var(--unnamed, #616F82);
+  font-family: SF Pro Display;
+  font-size: 14px;
+  font-weight: 400;
+}

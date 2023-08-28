@@ -1,0 +1,16 @@
+.typeWrapper {
+    display: flex;
+}
+
+.typeIcon {
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+}
+
+.type {
+    color: var(--unnamed, #161718);
+    font-family: SF Pro Display;
+    font-size: 12px;
+    font-weight: 400;
+}
